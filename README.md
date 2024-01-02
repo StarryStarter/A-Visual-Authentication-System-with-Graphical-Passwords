@@ -1,5 +1,5 @@
 # A Visual Authentication System with Graphical Passwords
-## During the registration process, users are prompted to upload nine distinct images and arrange them through a drag-and-drop interface to create a unique graphical password. Subsequently, the login mechanism necessitates arranging these images in the correct order. To enhance security, an account will be automatically blocked after four unsuccessful login attempts, thereby ensuring a secure environment while maintaining a user-friendly interface..
+### During the registration process, users are prompted to upload nine distinct images and arrange them through a drag-and-drop interface to create a unique graphical password. Subsequently, the login mechanism necessitates arranging these images in the correct order. To enhance security, an account will be automatically blocked after four unsuccessful login attempts, thereby ensuring a secure environment while maintaining a user-friendly interface..
 
 # Features :-
 ## • Image-based Authentication:
