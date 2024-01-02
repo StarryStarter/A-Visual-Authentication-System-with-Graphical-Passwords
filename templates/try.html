@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Add any additional CSS styles if needed */
+    </style>
+    <script>
+        // JavaScript function to shuffle the child elements of a container
+        function shuffleImages() {
+            var container = document.getElementById('imageContainer');
+            for (var i = container.children.length; i >= 0; i--) {
+                container.appendChild(container.children[Math.random() * i | 0]);
+            }
+        }
+
+        // Shuffle images when the page is loaded
+        window.addEventListener('load', shuffleImages);
+    </script>
+</head>
+<body>
+
+    <!-- Wrap your existing code with a container -->
+    <div id="imageContainer">
+        <div>
+            <h3>Image 1</h3>
+            <img style="height: 100px;  width: 100px;"  src="data:image/jpeg;base64,{{ image_data_base64 }}" alt="Image 1">
+        </div>
+        <div>
+            <h3>Image 2</h3>
+            <img style="height: 100px; width: 100px;" src="data:image/jpeg;base64,{{ image_data_base641 }}" alt="Image 9">
+        </div>
+    
+        <!-- Div 2 -->
+        <div>
+            <h3>Image 3</h3>
+            <img style="height: 100px; width: 100px;" src="data:image/jpeg;base64,{{ image_data_base642 }}" alt="Image 2">
+        </div>
+    
+        <!-- Div 3 -->
+        <div>
+            <h3>Image 4</h3>
+            <img style="height: 100px; width: 100px;" src="data:image/jpeg;base64,{{ image_data_base643 }}" alt="Image 3">
+        </div>
+    
+        <!-- Div 4 -->
+        <div>
+            <h3>Image 5</h3>
+            <img style="height: 100px; width: 100px;" src="data:image/jpeg;base64,{{ image_data_base644 }}" alt="Image 4">
+        </div>
+    
+        <!-- Div 5 -->
+        <div>
+            <h3>Image 6</h3>
+            <img style="height: 100px; width: 100px;" src="data:image/jpeg;base64,{{ image_data_base645 }}" alt="Image 5">
+        </div>
+    
+        <!-- Div 6 -->
+        <div>
+            <h3>Image 7</h3>
+            <img style="height: 100px; width: 100px;" src="data:image/jpeg;base64,{{ image_data_base646 }}" alt="Image 6">
+        </div><!-- Add other image divs as needed -->
+
+    </div>
+
+</body>
+</html>
